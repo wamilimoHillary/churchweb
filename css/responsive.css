@@ -1,0 +1,78 @@
+/* Responsive styles using media queries */
+@media screen and (max-width: 670px) {
+  *{
+    font-size: 12px;
+    margin: 0;
+  }
+    nav a {
+      float: none;
+      display: block;
+      text-align: left;
+    
+    }
+
+  nav {
+   overflow:hidden;/*hide excess elements in header*/
+   margin-right:1%;
+   text-align: center;
+   left: 0;
+   top:10%;
+ 
+   position:absolute;
+   background-color: gray;
+   width: fit-content;
+   background-image: url(images/wamilimo1.jpg);
+  }
+
+  header{
+    height: fit-content;
+  }
+  /*logo in header*/
+.logo img{
+ right: 10px;
+ top:3px;
+ position: relative;
+ float: right;
+ margin-right: 10%;
+
+}
+
+.church_name{
+ margin: 30% 5% 10% 10%;
+}
+.church_name h1{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#row{
+  display: block;
+}
+#column{
+  width: 100%;
+  flex: 100%;
+}
+
+
+/*---services*/
+.box{
+  width: 100%;
+  padding: 7%;
+  margin: 20px;
+}
+
+#servicetime{
+   width: 98%;
+  border-radius: 0 15px 15px 0;
+
+}
+
+
+/* footer*/
+    footer{
+      font-size:14px;
+      position: relative;
+      padding-left:20px;
+     
+    }
+  }
